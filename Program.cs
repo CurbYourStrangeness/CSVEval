@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Models.Enrollment;
+using CSVEval.Models;
 
 namespace CSVEval
 {
@@ -45,8 +46,12 @@ namespace CSVEval
 
                         while (!csvReader.EndOfData)
                         {
-                        DateTime ofAge = ;
-                            string[] fieldData = csvReader.ReadFields();
+
+
+                       
+
+
+                        string[] fieldData = csvReader.ReadFields();
                             //Making empty value as null
                             for (int i = 0; i < fieldData.Length; i++)
                             {
@@ -54,16 +59,22 @@ namespace CSVEval
                                 {
                                     fieldData[i] = null;
                                 }
-                                //if date of birth is less than 18, cancel processing
-                                if(fieldData[2] )
-                            {
-
-                            }
                             }
 
+                        //if date of birth is less than 18, cancel processing
+                        int now = int.Parse(DateTime.Now.ToString("yyyyMMdd"));
+                        int dob = int.Parse(fieldData[2]);
+                        int age = (now - dob) / 10000;
+                        if(age < 18)
+                        {
+                            //cancel processing and store in memory as bad record 
+                            //how to store in memory--need to make a method for that.
+                        }
                             csvData.Rows.Add(fieldData);
                         }
-                    }
+
+                           
+                        }
                 }
                 catch (Exception ex)
                 {
