@@ -1,0 +1,6 @@
+/Users/jtests/Desktop/JobApp/CSVEval/bin/Debug/CSVEval.exe.config
+/Users/jtests/Desktop/JobApp/CSVEval/bin/Debug/CSVEval.exe
+/Users/jtests/Desktop/JobApp/CSVEval/bin/Debug/CSVEval.pdb
+/Users/jtests/Desktop/JobApp/CSVEval/obj/Debug/CSVEval.csprojAssemblyReference.cache
+/Users/jtests/Desktop/JobApp/CSVEval/obj/Debug/CSVEval.exe
+/Users/jtests/Desktop/JobApp/CSVEval/obj/Debug/CSVEval.pdb

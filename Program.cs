@@ -59,6 +59,7 @@ namespace CSVEval
                 }
                 catch (Exception ex)
                 {
+                Console.WriteLine(ex);
                 }
                 return csvData;
             }
