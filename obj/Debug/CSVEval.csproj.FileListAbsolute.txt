@@ -1,7 +1,6 @@
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\bin\Debug\CSVEval.exe.config
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\bin\Debug\CSVEval.exe
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\bin\Debug\CSVEval.pdb
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\obj\Debug\CSVEval.csprojAssemblyReference.cache
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\obj\Debug\CSVEval.csproj.CoreCompileInputs.cache
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\obj\Debug\CSVEval.exe
-C:\Users\Owner\Desktop\Job Applications\Sample Projects\CSVEval\CSVEval\obj\Debug\CSVEval.pdb
+/Users/jtests/Desktop/JobApp/CSVEval/bin/Debug/CSVEval.exe.config
+/Users/jtests/Desktop/JobApp/CSVEval/bin/Debug/CSVEval.exe
+/Users/jtests/Desktop/JobApp/CSVEval/bin/Debug/CSVEval.pdb
+/Users/jtests/Desktop/JobApp/CSVEval/obj/Debug/CSVEval.csprojAssemblyReference.cache
+/Users/jtests/Desktop/JobApp/CSVEval/obj/Debug/CSVEval.exe
+/Users/jtests/Desktop/JobApp/CSVEval/obj/Debug/CSVEval.pdb

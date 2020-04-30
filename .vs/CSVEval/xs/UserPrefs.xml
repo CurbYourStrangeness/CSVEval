@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{D864C2CB-0ECE-4559-B15A-F8C578B688E1}|Default">
+  <MonoDevelop.Ide.ItemProperties.CSVEval PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Enrollment.cs">
+    <Files>
+      <File FileName="Program.cs" Line="62" Column="39" />
+      <File FileName="Models/Applicant.cs" Line="1" Column="1" />
+      <File FileName="Models/Enrollment.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CSVEval" expanded="True">
+            <Node name="CSVEval" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Enrollment.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
