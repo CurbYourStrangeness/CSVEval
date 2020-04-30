@@ -13,7 +13,7 @@ namespace CSVEval
         static void Main(string[] args)
         {
            
-            string csv_file_path = @"C:\Users\Administrator\Desktop\test.csv";
+            string csv_file_path = @"C:/Users/Owner/Desktop/Job Applications/Sample Projects/CSVs/feed.csv";
 
             DataTable csvData = GetDataTabletFromCSVFile(csv_file_path);
 
