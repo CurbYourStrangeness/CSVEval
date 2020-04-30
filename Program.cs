@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Models.Enrollment;
 
 namespace CSVEval
 {
@@ -44,6 +45,7 @@ namespace CSVEval
 
                         while (!csvReader.EndOfData)
                         {
+                        DateTime ofAge = ;
                             string[] fieldData = csvReader.ReadFields();
                             //Making empty value as null
                             for (int i = 0; i < fieldData.Length; i++)
@@ -52,7 +54,13 @@ namespace CSVEval
                                 {
                                     fieldData[i] = null;
                                 }
+                                //if date of birth is less than 18, cancel processing
+                                if(fieldData[2] )
+                            {
+
                             }
+                            }
+
                             csvData.Rows.Add(fieldData);
                         }
                     }
