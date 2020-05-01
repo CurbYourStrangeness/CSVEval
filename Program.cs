@@ -5,7 +5,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using Models.Enrollment;
 using CSVEval.Models;
 
 namespace CSVEval
@@ -45,11 +44,7 @@ namespace CSVEval
                         }
 
                         while (!csvReader.EndOfData)
-                        {
-
-
-                       
-
+                        {                                        
 
                         string[] fieldData = csvReader.ReadFields();
                             //Making empty value as null
@@ -69,6 +64,9 @@ namespace CSVEval
                         {
                             //cancel processing and store in memory as bad record 
                             //how to store in memory--need to make a method for that.
+                            System.ArgumentException errCode = new System.ArgumentException("A Record in the file failed validation. Processing has stopped.");
+                                                       
+                            throw errCode;
                         }
                             csvData.Rows.Add(fieldData);
                         }
