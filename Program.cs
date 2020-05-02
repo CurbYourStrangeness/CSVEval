@@ -35,8 +35,8 @@ namespace CSVEval
             {
                 try
                 {
-                    var reader = new ApplicantCSVReader();
-                    var records = reader.Read(csvFilePath);
+                    //var reader = new ApplicantCSVReader();
+                    //var records = reader.Read(csvFilePath);
                     var applicants = CSVParser.ParseApplicants(csvFilePath);
                     //var enrollments = mapper.Map(applicants);
                     //var jsonEnrollments = Newtonsoft.Json.JsonConvert.SerializeObject(enrollments);
