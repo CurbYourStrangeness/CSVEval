@@ -60,7 +60,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicantToEnrollmentMapper.cs" />
     <Compile Include="CSV\ApplicantsCSVParser.cs" />
     <Compile Include="CSV\IApplicantsCSVParser.cs" />
     <Compile Include="Extensions\DateTimeExtensions.cs" />

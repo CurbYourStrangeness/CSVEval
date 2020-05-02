@@ -29,7 +29,6 @@ namespace CSVEval
 
         private static void ParseApplicantsCSV(string csvFilePath)
         {
-            var mapper = new ApplicantToEnrollmentMapper();
 
             var errorMessage = string.Empty;
 
