@@ -7,6 +7,4 @@ namespace CSVEval.CSV
     {
         IList<Applicant> ParseApplicants(string filePath);
     }
-
-   
 }

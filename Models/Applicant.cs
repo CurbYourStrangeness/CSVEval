@@ -55,10 +55,6 @@ namespace CSVEval.Models
 
         public DateTime EffectiveDate { get; set; }
 
-        public Applicant()
-        {
-        }
-
         public Applicant(string[] fieldData)
         {
             this.FirstName = fieldData.ReadArrayField(0);
