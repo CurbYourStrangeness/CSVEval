@@ -59,6 +59,11 @@ namespace CSVEval.Models
         {
         }
 
+
+        /*
+        firstname, lastname, dob, etc..
+        mayrun, digmi, etc..
+    */
         public Applicant(string[] fieldData)
         {
             this.FirstName = fieldData.ReadArrayField(0);

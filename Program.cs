@@ -27,13 +27,19 @@ namespace CSVEval
 
         private static void ParseApplicantsCSV(string csvFilePath)
         {
+            var mapper = new ApplicantToEnrollmentMapper();
+
             var errorMessage = string.Empty;
 
             if (!string.IsNullOrEmpty(csvFilePath))
             {
                 try
                 {
+                    var reader = new ApplicantCSVReader();
+                    var records = reader.Read(csvFilePath);
                     var applicants = CSVParser.ParseApplicants(csvFilePath);
+                    //var enrollments = mapper.Map(applicants);
+                    //var jsonEnrollments = Newtonsoft.Json.JsonConvert.SerializeObject(enrollments);
                     PrintApplicants(applicants);
                 }
                 catch (Exception exp)
@@ -56,7 +62,7 @@ namespace CSVEval
 
         private static string GetFilePath(string[] args)
         {
-            string csvFilePath = @"sample_data/feed.csv";
+            string csvFilePath = string.Empty;
 
             if (args.Length > 0)
             {
