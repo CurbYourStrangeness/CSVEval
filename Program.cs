@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using CSVEval.CSV;
 using CSVEval.Models;
 
@@ -10,7 +11,8 @@ namespace CSVEval
     public class Program
     {
         private static IApplicantsCSVParser CSVParser => new ApplicantsCSVParser();
-        
+
+        private static List<Applicant> StatusStorage = new List<Applicant>();
         static void Main(string[] args)
         {
             var csvFilePath = GetFilePath(args);
@@ -35,8 +37,10 @@ namespace CSVEval
             {
                 try
                 {
+                   
                     var applicants = CSVParser.ParseApplicants(csvFilePath);
                     PrintApplicants(applicants);
+                    StatusStorage.AddRange(applicants);
                 }
                 catch (Exception exp)
                 {

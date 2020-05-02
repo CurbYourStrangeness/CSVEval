@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
 namespace CSVEval.Models
 {
     public class ReadApplicantModel
@@ -29,3 +29,4 @@ namespace CSVEval.Models
         FSA
     }
 }
+*/
