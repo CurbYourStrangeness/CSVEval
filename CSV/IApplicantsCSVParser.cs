@@ -8,8 +8,5 @@ namespace CSVEval.CSV
         IList<Applicant> ParseApplicants(string filePath);
     }
 
-    //public interface ICsvParser<T> where T:class
-    //{
-    //    IEnumerable<T> Parse(string filePath)
-    //}
+   
 }
